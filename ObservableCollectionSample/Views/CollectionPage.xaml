@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="ObservableCollectionSample.Views.CollectionPage">
+    <ContentPage.Content>
+        <StackLayout>
+        <CollectionView ItemsSource="{Binding ItemGroups}" IsGrouped="True">
+            <CollectionView.GroupHeaderTemplate>
+                <DataTemplate>
+                    <Label Text="{Binding Header}" BackgroundColor="LightGray" FontAttributes="Bold" HorizontalOptions="StartAndExpand" Padding="10"/>
+                </DataTemplate>
+            </CollectionView.GroupHeaderTemplate>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <SwipeView AutomationId="view">
+                        <SwipeView.RightItems>
+                            <SwipeItems>
+                                <SwipeItem Text="Delete"
+                                                   AutomationId="swipe"
+                                                   BackgroundColor="Red"/>
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+                        <Grid RowDefinitions="40,40,1" Padding="10,10,0,10" IsClippedToBounds="True">
+                            <Label Grid.Row="0" Text="{Binding Text}" HorizontalOptions="FillAndExpand"/>
+                            <Label  Grid.Row="1" Text="{Binding Description}" HorizontalOptions="FillAndExpand"/>
+                            <BoxView Grid.Row="2" BackgroundColor="LightGray" HeightRequest="1" HorizontalOptions="FillAndExpand" />
+                        </Grid>
+                    </SwipeView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+            <Button Text="Refresh" HorizontalOptions="Center" Command="{Binding RefreshCommand}"/>
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

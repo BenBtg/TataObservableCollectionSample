@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.8300" />  
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.3" />
+    <PackageReference Include="Xamarin.CommunityToolkit" Version="2.0.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Xamarin.CommunityToolkit" />
+    <None Remove="DynamicData" />
+  </ItemGroup>
+</Project>

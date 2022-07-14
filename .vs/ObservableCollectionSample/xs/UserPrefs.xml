@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{6265C62C-7018-4449-81A2-57D7AD78B824}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ObservableCollectionSample.iOS/Main.cs">
+    <Files>
+      <File FileName="ObservableCollectionSample/Views/CollectionPage.xaml" Line="24" Column="45" />
+      <File FileName="ObservableCollectionSample/Views/CollectionPage.xaml.cs" />
+      <File FileName="ObservableCollectionSample/ViewModels/CollectionViewModel.cs" Line="23" Column="41" />
+      <File FileName="ObservableCollectionSample/Models/Item.cs" />
+      <File FileName="ObservableCollectionSample/Views/AboutPage.xaml" />
+      <File FileName="ObservableCollectionSample/ViewModels/AboutViewModel.cs" />
+      <File FileName="ObservableCollectionSample/App.xaml" />
+      <File FileName="ObservableCollectionSample/AppShell.xaml.cs" />
+      <File FileName="ObservableCollectionSample.iOS/Main.cs" Line="17" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ObservableCollectionSample" expanded="True">
+            <Node name="ObservableCollectionSample" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="CollectionPage.xaml" expanded="True" />
+              </Node>
+              <Node name="AppShell.xaml" expanded="True" />
+            </Node>
+            <Node name="ObservableCollectionSample.iOS" expanded="True">
+              <Node name="Main.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ObservableCollectionSample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7246BFB2-2078-4C0D-8EF3-9E75660FA568" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ObservableCollectionSample.Android PreferredExecutionTarget="Android.nexus_10_q_10_0_-_api_29" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
