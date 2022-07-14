@@ -6,3 +6,9 @@ ObservableCollectionSample.Android/obj/
 ObservableCollectionSample.iOS/obj/
 
 .vs/
+
+ObservableCollectionSample/bin/
+
+ObservableCollectionSample.iOS/bin/
+
+ObservableCollectionSample.Android/bin/
