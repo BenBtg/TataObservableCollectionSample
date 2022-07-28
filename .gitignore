@@ -12,3 +12,5 @@ ObservableCollectionSample/bin/
 ObservableCollectionSample.iOS/bin/
 
 ObservableCollectionSample.Android/bin/
+
+.DS_Store

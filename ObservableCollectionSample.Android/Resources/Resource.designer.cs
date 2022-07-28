@@ -14,7 +14,7 @@ namespace ObservableCollectionSample.Droid
 {
 	
 	
-	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "12.3.99.16")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "12.3.99.59")]
 	public partial class Resource
 	{
 		
@@ -5725,6 +5725,7 @@ namespace ObservableCollectionSample.Droid
 			global::Xamarin.Essentials.Resource.Id.text2 = global::ObservableCollectionSample.Droid.Resource.Id.text2;
 			global::Xamarin.Essentials.Resource.Id.time = global::ObservableCollectionSample.Droid.Resource.Id.time;
 			global::Xamarin.Essentials.Resource.Id.title = global::ObservableCollectionSample.Droid.Resource.Id.title;
+			global::Xamarin.Essentials.Resource.Id.view_tree_lifecycle_owner = global::ObservableCollectionSample.Droid.Resource.Id.view_tree_lifecycle_owner;
 			global::Xamarin.Essentials.Resource.Integer.status_bar_notification_info_maxnum = global::ObservableCollectionSample.Droid.Resource.Integer.status_bar_notification_info_maxnum;
 			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_page = global::ObservableCollectionSample.Droid.Resource.Layout.browser_actions_context_menu_page;
 			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_row = global::ObservableCollectionSample.Droid.Resource.Layout.browser_actions_context_menu_row;
